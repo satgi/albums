@@ -1,0 +1,43 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 20px;
+	-webkit-padding-start: 0;
+}
+
+ul.albums {
+	list-style: none;
+}
+
+.cover {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#canvas-xx {
+	background: #000;
+	position: relative;
+}
+
+#canvas-xx .cross-bar {
+	width: 158px;
+	height: 33px;
+	background: #fff;
+	position: absolute;
+	left: 21px;
+	top: 84px;
+}
+
+#canvas-xx .cross-bar:first-child {
+	transform: rotate(45deg);
+}
+
+#canvas-xx .cross-bar:last-child {
+	transform: rotate(-45deg);
+}
