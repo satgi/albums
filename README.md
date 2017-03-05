@@ -3,7 +3,7 @@ Redraw album covers with CSS. Inspired by [Pink Floyd pyramid](http://codepen.io
 
 # Album list
 - [x] XX - The xx
-- [ ] Blackstar - David Bowie
+- [x] Blackstar - David Bowie
 - [ ] I Love You, Dude - Digitalism
 - [ ] Odyssey - Fischersponsor
 - [ ] Turn Blue - The black keys
