@@ -22,8 +22,8 @@ ul.albums {
 
 /* xx - The xx */
 #canvas-xx {
-	background: #000;
 	position: relative;
+	background: #000;
 }
 
 #canvas-xx .cross {
@@ -43,4 +43,173 @@ ul.albums {
 	height: 33px;
 	background: #fff;
 	transform: rotate(-90deg);
+}
+
+/* Blackstar - David Bowie */
+#canvas-blackstar {
+	position: relative;
+	background: #fff;
+}
+
+#canvas-blackstar .main-star {
+	position: absolute;
+	left: 23px;
+	top: 64px;
+	border-left: 77px solid transparent;
+	border-right: 77px solid transparent;
+	border-bottom: 58px solid rgb(26, 23, 24);
+	transform: rotate(36deg);
+}
+
+#canvas-blackstar .main-star:before {
+	content: '';
+	border-left: 77px solid transparent;
+	border-right: 77px solid transparent;
+	border-bottom: 58px solid rgb(26, 23, 24);
+	position: absolute;
+	transform: rotate(-74deg);
+	top: 2px;
+	left: -80px;
+}
+
+#canvas-blackstar .main-star:after {
+	content: '';
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 56px solid rgb(26, 23, 24);
+	position: absolute;
+	transform: rotate(-37deg);
+	top: -38px;
+	left: -50px;
+}
+
+#small-star-list {
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 3px;
+	left: 45px;
+}
+
+#small-star-list li {
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 15px;
+}
+
+#small-star-1 {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 6px solid rgb(26, 23, 24);
+	transform: rotate(-107deg);
+}
+
+#small-star-2 {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 6px solid rgb(26, 23, 24);
+	transform: rotate(36deg);
+}
+
+#small-star-2:before {
+	content: '';
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 6px solid rgb(26, 23, 24);
+	position: absolute;
+	transform: rotate(-74deg);
+	top: 0px;
+	left: -8px;
+}
+
+#small-star-2:after {
+	content: '';
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-bottom: 6px solid rgb(26, 23, 24);
+	position: absolute;
+	transform: rotate(-37deg);
+	top: -4px;
+	left: -5px;
+}
+
+#small-star-3 {
+	border-left: 2px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 8px solid rgb(26, 23, 24);
+	transform: rotate(-34deg);
+	margin-top: -3px;
+}
+
+#small-star-3:after {
+	content: '';
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 3px solid #fff;
+	position: absolute;
+	top: 3px;
+	left: -5px;
+	transform: rotate(-76deg);
+}
+
+#small-star-4 {
+	border-left: 2px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 8px solid rgb(26, 23, 24);
+	transform: rotate(-183deg);
+	position: absolute;
+	left: -3px;
+}
+
+#small-star-4:after {
+	content: '';
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 3px solid #fff;
+	position: absolute;
+	top: 3px;
+	left: -5px;
+	transform: rotate(-76deg);
+}
+
+#small-star-5 {
+	border-left: 2px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 8px solid rgb(26, 23, 24);
+	transform: rotate(-107deg);
+	position: absolute;
+	left: -6px;
+	top: -2px;
+}
+
+#small-star-5:after {
+	content: '';
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 3px solid #fff;
+	position: absolute;
+	top: 3px;
+	left: -5px;
+	transform: rotate(-76deg);
+}
+
+#small-star-6 {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 6px solid rgb(26, 23, 24);
+	transform: rotate(-107deg);
+	position: absolute;
+	left: -11px;
+}
+
+#small-star-6:after {
+	content: '';
+	border-left: 2px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 4px solid rgb(26, 23, 24);
+	position: absolute;
+	left: -3px;
+	top: 5px;
+	transform: rotate(70deg);
 }
