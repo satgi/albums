@@ -4,7 +4,7 @@ Redraw album covers with CSS. Inspired by [Pink Floyd pyramid](http://codepen.io
 # Album list
 - [x] XX - The xx
 - [x] Blackstar - David Bowie
-- [ ] I Love You, Dude - Digitalism
+- [x] I Love You, Dude - Digitalism
 - [ ] Odyssey - Fischersponsor
 - [ ] Turn Blue - The black keys
 - [ ] Music Complete - New Order

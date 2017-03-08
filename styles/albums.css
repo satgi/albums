@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Noveo Sans Black';
+  src: url('../fonts/Fontspring-DEMO-NoveoSans-Black.otf') format('opentype');
+}
+
 html,
 body {
 	margin: 0;
@@ -212,4 +217,61 @@ ul.albums {
 	left: -3px;
 	top: 5px;
 	transform: rotate(70deg);
+}
+
+#canvas-i-love-you-dude {
+	background: #fff;
+	position: relative;
+}
+
+#canvas-i-love-you-dude .title {
+	margin-left: 12px;
+	font-family: 'Noveo Sans Black';
+	position: absolute;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+#canvas-i-love-you-dude .title h4 {
+	font-size: 7px;
+	margin: 12px 0 0 0;
+}
+
+#canvas-i-love-you-dude .title h5 {
+	font-size: 7px;
+	line-height: 0.9em;
+	margin: 0.5em 0;
+}
+
+#canvas-i-love-you-dude .main-rect {
+	background: #000;
+	width: 74px;
+	height: 31px;
+	position: absolute;
+	left: 63px;
+	bottom: 89px;
+}
+
+#canvas-i-love-you-dude .main-rect:before,
+#canvas-i-love-you-dude .main-rect:after {
+	content: '';
+	border-left: 18px solid transparent;
+	border-right: 19px solid transparent;
+	border-bottom: 11px solid #000;
+	position: absolute;
+	top: -11px;
+}
+
+#canvas-i-love-you-dude .main-rect:after {
+	left: 37px;
+}
+
+#canvas-i-love-you-dude .triangle {
+	width: 0;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-top: 21px solid #000;
+	position: absolute;
+	left: 63px;
+	bottom: 68px;
 }
